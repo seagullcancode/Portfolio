@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- fonts -->
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Acme' rel='stylesheet' type='text/css'><!-- //fonts -->
+
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+
+<!-- skills -->
+<script src="js/pie-chart.js" type="text/javascript"></script>
+ <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#demo-pie-1').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'round',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+			$('#demo-pie-4').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+        });
+    </script>
+<!-- skills -->
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+
+</head>
+<body>
+<!-- banner -->
+<div class="header-top">
+	<div class="container">
+		<ul>
+			<li><a class="scroll" href="#about"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>About me</a></li>
+			<li><a class="scroll" href="#skills"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Skills</a></li>
+			<li><a href="javascript:window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>Print CV</a></li>
+			<li><a href="#emailme" class="scroll" alt="">
+				<span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Contact</a></li>
+		</ul>
+	</div>
+</div>
+<div class="header">
+	<div class="container">
+		<div class="col-md-8 header-left">
+			<div class="col-sm-5 pro-pic">
+				<img class="img-responsive" src="images/pic1.jpg" alt=" "/>
+			</div>
+			<div class="col-sm-5 pro-text">
+				<h1>Amanda Zhang</h1>
+				<p>Web Designer | Graphic Designer</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 header-right ">
+			<ul class="list-left">
+				<li>Email:</li>
+				<li>Phone:</li>
+				<li>Location: </li>
+				<li>Portfolio:</li>
+			</ul>
+			<ul class="list-right">
+				<li><a href="mailto:info@example.com">amandanewzealand@hotmail.com</a></li>
+				<li>021-088-00016</li>
+				<li> Auckland, New Zealand.</li>
+				<li><a href="https://www.behance.net/seagull1688ace" target="_blank">www.behance.net/seagull1688ace</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<h3 class="tittle">About Me</h3>
+		<p class="abt-para">Completed Web Design&amp; Graphic Design study in Auckland, have working experience in web design projects both in school and after graduated. Have experience with the front end develop languages and Adobe Creative Suite. Good attention to detail, the ability to multi-task and work to deadlines. Accomplished former small business owner with a solid track record in customer service and multi-cultural communication. Motivated team player with strong organizational and prioritization abilities. Fast learner and excellent leading and communication skills. </p>
+	</div>
+	<div class="col-md-6 abt-left ">
+		<h2>Education</h2>
+				<div class="accordion">
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-1">
+									<span>2015 - 2016</span> Level 7: Multimedia
+								<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a></h5>
+								<div id="accordion-1" class="accordion-section-content">
+									<h6>Tasman International Academies-Auckland</h6>
+									<ul>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">HTML, CSS, Javascript, jQuery, Bootstrap</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Database, PHP, WordPress </a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#"> Photoshop, Illustrator, Indesign, Flash, Premiere</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-2">
+									<span>2011 - 2012</span>Language Education
+								<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a></h5>
+								<div id="accordion-2" class="accordion-section-content">
+									<h6>Mandarin Gardens - Shanghai,China </h6>
+									<ul>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">History of Ancient Chinese</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Teaching Method</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Western Culture and History</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-3">
+									<span>2007 - 2013</span> Bachelor of Law
+								<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a></h5>
+								<div id="accordion-3" class="accordion-section-content">
+									<h6>Changchun Normal University - Jilin,China </h6>
+									<ul>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Law and International Relations</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Economic Mathematics</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Human Resource Development and Management</a></li>
+									</ul>
+								</div>
+							</div>
+
+
+				</div>
+				<script>
+							jQuery(document).ready(function() {
+								function close_accordion_section() {
+									jQuery('.accordion .accordion-section-title').removeClass('active');
+									jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+								}
+
+								jQuery('.accordion-section-title').click(function(e) {
+									// Grab current anchor value
+									var currentAttrValue = jQuery(this).attr('href');
+
+									if(jQuery(e.target).is('.active')) {
+										close_accordion_section();
+									}else {
+										close_accordion_section();
+
+										// Add active class to section title
+										jQuery(this).addClass('active');
+										// Open up the hidden content panel
+										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
+									}
+
+									e.preventDefault();
+								});
+							});
+				</script>
+	</div>
+	<div class="col-md-6 abt-right ">
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-1" class="pie-title-center" data-percent="85"> <span class="pie-value"></span> </div>
+			<h4>Web Design</h4>
+		</div>
+
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-3" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
+			<h4>Graphic Design</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-4" class="pie-title-center" data-percent="70"> <span class="pie-value"></span> </div>
+			<h4>UI｜UX Design</h4>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- about -->
+<!-- education -->
+<div class="employment">
+	<div class="container">
+		<h3 class="tittle ">Work Experience</h3>
+		<!----<p class="abt-para "></p>--------->
+		<div class="col-md-6 employ-left">
+			<h4>01</h4>
+		</div>
+		<div class="col-md-6 employ-right">
+			<h5><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>Web Administrator</h5>
+			<detail>01 Aug 2017 - 09 Sep 2017 Internship</detail>
+			<content>Cathay Business Solutions</content>
+			<p><a href="PDF/referenceLetter.pdf"><strong>Reference Letter</strong></a></p>
+			<p> - Using WordPress, Magento to make websites.</p>
+			<p> - Website maintenance and web page designs.</p>
+			<p> - Manage the back end of e-commerce website platforms.</p>
+			<p> - The projects I got involved:</p>
+			<p>http://www.longchampsgroup.com/</p>
+			<p>http://daigouunion.com/</p>
+
+
+		</div>
+		<div class="col-md-6 employ-left2">
+			<h5>Graphic Designer<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></h5>
+			<detail>05 Jul 2016 - 05 Aug 2016 Intership</detail>
+			<content>World Vision Auckland</content>
+			<p><a href="PDF/WVprojects.pdf"><strong>Projects Examples</strong></a></p>
+			<p>Using Photoshop, Illustrator, Indesign to create </p>
+			<p>flyers and brochures for events and website. </p>
+			<p></p>
+		</div>
+		<div class="col-md-6 employ-right2">
+			<h4>02</h4>
+		</div>
+		<div class="col-md-6 employ-left ">
+			<h4>03</h4>
+		</div>
+		<div class="col-md-6 employ-right">
+			<h5><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>Training Manager &amp; Business Owner</h5>
+			<detail>01 Jun 2008 - 01 Jun 2015</detail>
+			<content>Aliens Language School</content>
+			<p> - Managed the local advertising and marketing campaign for the company, as well as coordinated partnerships with other businesses including FAW and Continental.</p><p>  - Handled the majority of HR decisions, including orientation of new hires and organization of work schedules.</p><p> - Organized diverse educational and cultural programs for western clients all over the world. </p>
+		</div>
+		<div class="col-md-6 employ-left2">
+			<h5>Express Service<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></h5>
+			<detail>01 May 2007 - 01 May 2008</detail>
+			<content>Howard Johnson Hotel</content>
+			<p>Greeted visitors or callers and handled their inquiries or directed them to the appropriate persons according to their needs. Operated office equipment, such as fax machines, copiers, or phone systems and arrange for repairs when equipment malfunctions.</p>
+		</div>
+		<div class="col-md-6 employ-right2">
+			<h4>04</h4>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- education -->
+<!-- num scroller -->
+
+<div class="num-scroller">
+	<div class="container">
+		<h3 class="tittle ">Milestones Achieved</h3>
+		<div class="col-md-3 capabil-grid text-center">
+
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='30' data-delay='.5' data-increment="100">30</div>
+			<p>Projects Done</p>
+		</div>
+		<div class="col-md-3 capabil-grid text-center">
+
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='150' data-delay='.5' data-increment="5">150</div>
+			<p>Testing</p>
+		</div>
+		<div class="col-md-3 capabil-grid text-center" >
+
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='3' data-delay='.5' data-increment="100">3</div>
+			<p>Clients</p>
+		</div>
+		<div class="col-md-3 capabil-grid text-center">
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='3' data-delay='.5' data-increment="1">3</div>
+			<p>Likes</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+<!-- //num scroller -->
+<!-- portfolio -->
+<div class="portfolio">
+	<div class="container">
+		<h3 class="tittle ">Portfolio</h3>
+			<div class="portfolio-grids">
+				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+				<script type="text/javascript">
+									$(document).ready(function () {
+										$('#horizontalTab').easyResponsiveTabs({
+											type: 'default', //Types: default, vertical, accordion
+											width: 'auto', //auto or any width like 600px
+											fit: true   // 100% fit in a container
+										});
+									});
+
+				</script>
+				<div class="sap_tabs">
+					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						<ul class="resp-tabs-list">
+							<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Branding Design</span></li>
+							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Website Design</span></li>
+							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Graphic Design</span></li>
+                            <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Art Pieces</span></li>
+
+						</ul>
+
+
+
+    <!---branding design------------------------------->
+							<div class="resp-tabs-container">
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding1Logo.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding2Logo.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding3Logo.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding4Logo.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding1.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding2.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding3.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding4.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+<!--------------website------------->
+
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/website1.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal10" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/website2.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd">
+									<div class="thumb">
+										<a href="#portfolioModal11" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/website3.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd">
+									<div class="thumb">
+										<a href="#portfolioModal12" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/website4.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+<!----------------------graphic------------->
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal13" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/graphic1.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal14" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/graphic2.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd">
+									<div class="thumb">
+										<a href="#portfolioModal15" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/graphic3.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd">
+									<div class="thumb">
+										<a href="#portfolioModal16" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/graphic4.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+<!----------------------Art------------->
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal17" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/Art1.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal18" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/Art2.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd">
+									<div class="thumb">
+										<a href="#portfolioModal19" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/Art3.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd">
+									<div class="thumb">
+										<a href="#portfolioModal20" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/Art4.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+
+<!-- //portfolio ------------------------------------------------------->
+<!-- more skills -->
+<div id="skills" class="more">
+	<div class="container">
+		<h3 class="tittle ">Skills</h3>
+		<div class="col-md-6 skill-left ">
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success" style="width: 30%">HTML5&amp;CSS3
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning " style="width: 40%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>80%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success1" style="width: 30%">JAVA SCRIPT
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning1" style="width: 20%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>50%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success3" style="width: 30%">Photoshop
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning3 " style="width: 55%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>85%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success2" style="width: 30%">Illustrator
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning2" style="width: 55%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>85%</p>
+				  <div class="clearfix"></div>
+			</div>
+
+			<div class="progress no-marg">
+				  <div class="progress-bar progress-bar-success4" style="width: 30%">Indesign
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning4" style="width: 40%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>70%</p>
+				  <div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="col-md-6 skill-right ">
+			<div class="scrollbar scrollbar1">
+				<div class="more-gds">
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+					</div>
+					<div class="col-sm-9 more-right">
+						<h4>Web Design</h4>
+						<p>Familiar with the design process and programming languages.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-9 more-right2">
+						<h4>Graphic Design</h4>
+						<p>Have visual creativity, be good at using Adobe Creative Suite.</p>
+					</div>
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+					</div>
+					<div class="col-sm-9 more-right">
+						<h4>Marketing</h4>
+						<p>Easy to communicate and willing to meet clients' need.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+</div>
+<!-- more skills -->
+<!-- contact -->
+<div id="emailme" class="contact">
+	<div class="container">
+		<h3 class="tittle">Contact</h3>
+		<div class="col-md-6 contact-left ">
+			<div class="horizontal-tab">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="false">Contact me</a></li>
+					<li class=""><a href="#tab2" data-toggle="tab" aria-expanded="false">Hire me</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active in" id="tab1">
+						<div class="contact-form">
+							<ul>
+								<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Auckland City, <span>New Zealand.</span></li>
+								<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">amandanewzealand@hotmail.com</a></li>
+								<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>021 088 00016</li>
+							</ul>
+							<form>
+								<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+								<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+								<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+								<input type="submit" value="Submit" >
+							</form>
+						</div>
+
+					</div>
+					<div class="tab-pane" id="tab2">
+					  <div class="contact-form">
+							<form>
+								<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+								<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+								<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Description...</textarea>
+								<input id="uploadFile" placeholder="Choose File" disabled="disabled" />
+									<div class="fileUpload btn btn-primary">
+										<span>Upload</span>
+										<input id="uploadBtn" type="file" class="upload" />
+									</div>
+								<input type="submit" value="Send Request" >
+							</form>
+							<script>
+								document.getElementById("uploadBtn").onchange = function () {
+									document.getElementById("uploadFile").value = this.value;
+								};
+							</script>
+						</div>
+					</div>
+
+				</div>
+            </div>
+		</div>
+		<div class="clearfix"></div>
+		<p class="copy-right">Copyright &copy; 2017. Amanda Zhang All rights reserved.</p>
+	</div>
+</div>
+<!-- //contact -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!---------------------------------BRANDING DESIGN ------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Branding Design 1</h3>
+                        <img src="images/branding1Logo.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is a logo design I made by illustrator for my webpage as well as a creative studio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------------2-------------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Branding Design 2</h3>
+                        <img src="images/branding2LogoBIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is a CAFE branding design I created by illustrator for The Campers' CAFE.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------- 3 --------------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Branding Design 3</h3>
+                        <img src="images/branding3LogoBIG.png" class="img-responsive img-centered" alt="">
+                        <p>This is a T Shirt branding design I produced by illustrator and photoshop for a clothing store.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------- 4 -------------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Branding Design 4</h3>
+                        <img src="images/branding4Logo.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is a T Shirt branding design I produced by illustrator and photoshop for a clothing store.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------- 5 ---------------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Branding Design 5</h3>
+                        <img src="images/branding1BIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is how the logo presented in the webpage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------- 6 ---------------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Branding Design 6</h3>
+                        <img src="images/branding2BIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is how the branding design looks outside the CAFE.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------7 ---------------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Branding Design 7</h3>
+                        <img src="images/branding3BIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is how the branding design looks like on a T Shirt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------8 ----------------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Branding Design 8</h3>
+                        <img src="images/branding4BIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is how the branding design looks like on a T Shirt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------WEBSITE-------------------------------------------------->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>WEBSITE DESIGN 1</h3>
+                        <a href="sources/Amanda-web-1/index.html" target="_blank"><img src="images/website1BIG.jpg" class="img-responsive img-centered" alt=""></a>
+                        <p>This is a website I made for a BP electritical company by using HTML,CSS,bootstrap,JQuery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>WEBSITE DESIGN 2</h3>
+						<a href="sources/Amanda-web-2/digital.html" target="_blank"><img src="images/website2BIG.png" class="img-responsive img-centered" alt=""></a>
+                        <p>This is a website I mockup from a light company designed by photoshop,build with html and css.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>WEBSITE DESIGN 3</h3>
+						<a href="sources/Amanda-web-3/HTML/home.html" target="_blank"><img src="images/website3BIG.jpg" class="img-responsive img-centered" alt=""></a>
+                        <p>This is a website I made for a design company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>WEBSITE DESIGN 4</h3>
+						<a href="sources/Amanda-web-4/index.html" target="_blank"><img src="images/website4BIG.jpg" class="img-responsive img-centered" alt=""></a>
+                        <p>This is a website I made for a creativity company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------------GRAPHIC DESIGN--------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>GRAPHIC DESIGN 1</h3>
+                        <img src="images/graphic1BIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is a tripod brochure I made by using photoshop.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Graphic DESIGN 2</h3>
+                        <img src="images/graphic2BIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is a landing page I designed for a bakery by photoshop. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>GRAPHIC DESIGN 3</h3>
+                        <img src="images/graphic3BIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is a event poster design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>GRAPHIC DESIGN 4</h3>
+                        <img src="images/graphic4BIG.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is a web page design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------Art pieces--------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Art Pieces 1</h3>
+                        <img src="images/Art1.jpg" class="img-responsive img-centered" alt="">
+                        <p>This is a dear portrait by using low ploy effect in illustrator.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Art Pieces 2</h3>
+                        <img src="images/Art2.jpg" class="img-responsive img-centered" alt="">
+                        <p>3D effect by using illustrator.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Art Pieces 3</h3>
+                        <img src="images/Art3BIG.png" class="img-responsive img-centered" alt="">
+                        <p>3D effect by using illustrator.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Art Pieces 4</h3>
+                        <img src="images/Art4BIG.png" class="img-responsive img-centered" alt="">
+                        <p>3D effect by using illustrator.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------->
+
+	<!--scrolling js-->
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<!--//scrolling js-->
+	<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear'
+			};
+		*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
