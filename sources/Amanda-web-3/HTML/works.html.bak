@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link href="style/style.css" rel="stylesheet" type="text/css" />
+  <title>Document</title>
+ </head>
+ <body>
+ <!-- main -->
+ <div id="main">
+	<!-- top -->
+	<div id="top">
+	 <h1><a href="" title=""><img src="images/logo.jpg" border="0" alt="" title="" /></a></h1>
+	 <div class="icons">
+	  <span><a href="" title=""><img src="images/icon1.jpg" border="0" alt="" title="" /></a></span>
+	  <span><a href="" title=""><img src="images/icon2.jpg" border="0" alt="" title="" /></a></span>
+	  <span><a href="" title=""><img src="images/icon3.jpg" border="0" alt="" title="" /></a></span>
+	  <span><a href="" title=""><img src="images/icon4.jpg" border="0" alt="" title="" /></a></span>
+	 </div>
+	 <div class="clear"></div>
+	</div>
+	<!-- top end -->
+	<!-- nav -->
+	<div id="nav">
+		<div class="nav_bg_left"><img src="images/nav_bg_left.png" border="0" alt="" title="" /></div>
+		<ul class="navlist">
+		 <li><a href="home.html" title="">HOME</a></li>
+		 <li><a href="aboutus.html" title="">ABOUT</a></li>
+		 <li><a href="works.html" title="">WORKS</a></li>
+		 <li><a href="contactus.html" title="">CONTACT</a></li>
+		</ul>
+		<div class="search">
+		  <input class="text" type="text" /><input class="submit" type="submit" value=" ">
+		</div>
+		<div class="nav_bg_right"><img src="images/nav_bg_right.png" border="0" alt="" title="" /></div>
+	</div>
+	<!-- nav end -->
+	<!-- centar -->
+	<div id="center">
+		<div class="topbanner">
+			<img src="images/banner3.jpg" border="0" alt="" title="" />
+		</div>
+		<div class="worksbox">
+			<ul>
+			 <li><a href="" title=""><img src="images/img2.jpg" border="0" alt="" title="" /></a></li>
+			 <li style="margin:0 20px;"><a href="" title=""><img src="images/img3.jpg" border="0" alt="" title="" /></a></li>
+			 <li><a href="" title=""><img src="images/img4.jpg" border="0" alt="" title="" /></a></li>
+			 <div class="clear"></div>
+			</ul>
+			<ul>
+			 <li><a href="" title=""><img src="images/img2.jpg" border="0" alt="" title="" /></a></li>
+			 <li style="margin:0 20px;"><a href="" title=""><img src="images/img3.jpg" border="0" alt="" title="" /></a></li>
+			 <li><a href="" title=""><img src="images/img4.jpg" border="0" alt="" title="" /></a></li>
+			 <div class="clear"></div>
+			</ul>
+			<ul>
+			 <li><a href="" title=""><img src="images/img2.jpg" border="0" alt="" title="" /></a></li>
+			 <li style="margin:0 20px;"><a href="" title=""><img src="images/img3.jpg" border="0" alt="" title="" /></a></li>
+			 <li><a href="" title=""><img src="images/img4.jpg" border="0" alt="" title="" /></a></li>
+			 <div class="clear"></div>
+			</ul>
+
+			<div class="clear"></div>
+		</div>
+		 <div class="workslistnumber">
+			<span><a href="" title="">1</a></span>
+			<span><a href="" title="">2</a></span>
+			<span><a href="" title="">3</a></span>
+			<span><a href="" title="">4</a></span>
+		 </div>
+		
+	</div>
+	<!-- centar end -->
+ </div>
+ <!-- main end -->
+ <!-- footer -->
+ <div id="footer">
+ <p>© 2015 By Elaine.Lin</p>
+ </div>
+ <!-- footer end -->
+ </body>
+</html>

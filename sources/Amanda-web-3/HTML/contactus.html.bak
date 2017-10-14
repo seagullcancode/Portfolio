@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link href="style/style.css" rel="stylesheet" type="text/css" />
+  <title>Document</title>
+ </head>
+ <body>
+ <!-- main -->
+ <div id="main">
+	<!-- top -->
+	<div id="top">
+	 <h1><a href="" title=""><img src="images/logo.jpg" border="0" alt="" title="" /></a></h1>
+	 <div class="icons">
+	  <span><a href="" title=""><img src="images/icon1.jpg" border="0" alt="" title="" /></a></span>
+	  <span><a href="" title=""><img src="images/icon2.jpg" border="0" alt="" title="" /></a></span>
+	  <span><a href="" title=""><img src="images/icon3.jpg" border="0" alt="" title="" /></a></span>
+	  <span><a href="" title=""><img src="images/icon4.jpg" border="0" alt="" title="" /></a></span>
+	 </div>
+	 <div class="clear"></div>
+	</div>
+	<!-- top end -->
+	<!-- nav -->
+	<div id="nav">
+		<div class="nav_bg_left"><img src="images/nav_bg_left.png" border="0" alt="" title="" /></div>
+		<ul class="navlist">
+		 <li><a href="home.html" title="">HOME</a></li>
+		 <li><a href="aboutus.html" title="">ABOUT</a></li>
+		 <li><a href="works.html" title="">WORKS</a></li>
+		 <li><a href="contactus.html" title="">CONTACT</a></li>
+		</ul>
+		<div class="search">
+		  <input class="text" type="text" /><input class="submit" type="submit" value=" ">
+		</div>
+		<div class="nav_bg_right"><img src="images/nav_bg_right.png" border="0" alt="" title="" /></div>
+	</div>
+	<!-- nav end -->
+	<!-- centar -->
+	<div id="center">
+		<div class="topbanner"><img src="images/banner1.png" border="0" alt="" title="" /></div>
+		 <div class="box">
+			<div class="title"><img src="images/title2.jpg" border="0" alt="" title="" /></div>
+			<div class="boxinfo">
+				<div class="contactleft">
+					<div class="contacttitle">Directions</div>
+					<p>Brown turkey in a large skillet breaking it into smaller pieces as it cooks. When no longer pink add dry seasoning and mix well. Add the onion, pepper, water and tomato sauce and cover. Simmer on low for about 20 minutes.</p>
+					<p>Wash and dry the lettuce. Divide the meat equally between the 8 leaves and place in the center of each leaf and top with your favorite taco fixins! With the cheese, 2 wraps are 7 pp (toppings extra).</p>
+				</div>
+				<div class="contactright">
+					<ul>
+					 <li> <input type="text" name="" value="name:"></li>
+					 <li><input type="text" name="" value="phone:"></li>
+					 <li><input type="text" name="" value="E-mail:"></li>
+					 <li><textarea name="" rows="7" cols="30" value="">how can we help you?</textarea></li>
+					 <li><input class="contactsubmit" type="submit" value="Submit"></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		 </div>
+	</div>
+	<!-- centar end -->
+ </div>
+ <!-- main end -->
+ <!-- footer -->
+ <div id="footer">
+ <p>© 2015 By Elaine.Lin</p>
+ </div>
+ <!-- footer end -->
+ </body>
+</html>

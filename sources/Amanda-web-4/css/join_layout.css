@@ -1,0 +1,140 @@
+.form{
+    display:block;
+    overflow:auto;
+    width:1000px;
+    padding:2px;
+    margin: 40px auto;
+    align:center;
+    text-align:center;
+    background-image:url("images/newzealand.png");
+    background-repeat: no-repeat;
+    color:black;
+}
+
+form#registerForm{
+    background-color: cadetblue; 
+}
+    
+    
+#formtitle{
+    text-align:center;
+    color:black;       
+}
+    
+   
+form.register{
+    width:600px;
+    align:center;
+    text-align:center;
+    padding:2px;
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    outline:1px solid black;
+}
+    
+form.signin{          
+    text-align:center;
+    padding-top:10px;
+    margin-right:350px;
+    width:300px;
+    height:100px;
+    float:right;
+    outline:1px solid black;
+         
+}
+        
+form.register ul{
+    list-style:none;   
+}
+
+form.register li {
+    position:relative; 
+    width:500px;
+    margin:15px;
+    color:black;
+    padding:3px;
+    border:4px dotted transparent;
+}
+
+form.register li input{
+    padding:5px;   
+}
+
+
+
+div.speechcontainer{
+    position:absolute;   
+    left:538px;
+    top:-20px;
+}
+
+div.speech
+{
+	position: relative;
+	width: 200px;
+	height: 65px;
+	text-align: center;
+	background-color: #fff;
+	border: 4px solid #666;
+	border-radius: 10px;
+}
+
+div.speech p {
+    display:block;
+    margin:10px;   
+}
+
+div.speech:before
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -61px;
+	top: 2px;
+	border: 30px solid;
+	border-color: transparent #666 transparent transparent;
+}
+
+div.speech:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -49px;
+	top: 5px;
+	border: 27px solid;
+	border-color: transparent #fff transparent transparent;
+}
+
+.messageBoxClass{
+    display:block;
+    overflow:auto;
+    width:300px;
+    padding:10px;
+    margin:5px;
+    height:45px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight:bold;
+    line-height:2;
+}
+
+.messageBoxError{
+   background-color:#F2DEDE;
+   color:#FB616C;
+}
+
+.messageBoxSuccess{
+    background-color:#DFF0D8;
+    color:#3C764B;
+}
+
+.fieldBlankNotification{
+    color:red;
+    font-style:italic;
+    padding:1px;
+}

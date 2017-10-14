@@ -1,0 +1,89 @@
+table img{
+    width:250px;   
+}
+
+table tr td{
+    padding:10px;
+    vertical-align:top;
+    text-align: center;
+}
+
+table .staffname{
+    color:darkgreen;
+    font-size:18px;
+}
+
+div#tableholder{
+    margin:3px;
+    margin-left: 205px;
+    padding:10px;
+    border:1px solid none;
+}
+
+div#teambanner{
+    margin:3px;
+    float:left;
+    width:450px;
+    height: 305px;
+    margin-left: 200px;
+}
+
+div#teambanner img{
+    display:block;
+    margin:1px auto;
+    clear:both;
+    width:430px;
+}
+
+div#teambanner h5{
+    text-align: center;
+    display:block;
+    clear:both;
+    background-color:#2F2F2F;
+    color:white;
+    font-size:55px;
+    padding:20px;
+    margin:6px 8px;
+}
+
+div#sliderholder{
+    width:400px;
+    margin:2px auto;
+    float: left;
+}
+
+
+
+
+/* -- for jQuery slide plugin -- */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }

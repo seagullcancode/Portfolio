@@ -1,0 +1,41 @@
+#learnbanner1{
+    display:block;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    background-color:#EA4335;
+    text-align:center;
+}
+
+#learnbanner1 h2, h3{
+    margin:5px;     
+    color:white;
+}
+
+div#learnbanner1 img{
+    display:block;
+    overflow:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div#learnmain{
+    display:block;
+    overflow:auto;
+    width:45%;
+    margin:25px auto;
+    line-height:1.5;
+}
+
+div#learnmain h2{
+    font-size:28px;
+    color:#4A4A4A;
+    display:block;
+    overflow:auto;
+    margin:10px 0px;
+}
+
+div#learnmain p{
+    margin-top:15px;   
+}

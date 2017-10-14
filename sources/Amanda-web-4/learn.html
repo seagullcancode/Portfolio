@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+  <title>Seagull Creative Factory</title>
+ 
+  <meta name="description" content="Website on branding and web design.">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+  
+  <!-- stylesheets go here ------>
+    <link rel='stylesheet' type='text/css' href='css/standard_layout.css'>
+    <link rel='stylesheet' type='text/css' href='css/learn_layout.css'>    
+  <!-- end stylesheets --------->
+    
+   <!-- jQuery from content delivery network -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- end jQuery from content delivery network -->
+    
+ <!-- jQuery script to toggle header logo -->
+ <script src='jQuery/logogrowshrink.js'></script>
+    
+     
+    <!-----------------------hide------------------>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#learnbigtitle").click(function(){
+        $(".learntxt").hide();
+    });
+});
+
+    
+</script>   
+
+   <!---------------------------------------> a   
+    
+</head>
+<!-- head ends here -->
+
+<!-- body begins here ----->
+<body>
+
+   <!-- header goes here -->
+     
+        <div id="mainheader">
+            
+            <div id="mainnav">
+                <ul>
+                    <li><a id='learnlink' href='learn.html'>LEARN</a></li>
+                    <li><a id='worklink' href='work.html'>WORK</a></li>
+                    <li><a id='teamlink' href='team.html'>TEAM</a></li>
+                    <li></li>
+                    <li><a id='joinlink' href='join.html'>JOIN</a></li>
+                    <li><a id='contactlink' href='contact.html'>CONTACT</a></li>
+                    <li><a id='eventslink' href='events.html'>EVENTS</a></li>
+                </ul>
+                 <div class="clear"></div>
+            </div>
+           
+             <!-- main banner class changes from page to page, but ID remains the same -->
+            <div id="mainbanner" class="mainbannerred">
+                <!-- main banner image changes from page to page -->
+                <img src='images/header_banner02.png' alt=""></img>
+            
+                <!-- blockquote text changes from page to page -->
+                <blockquote><p id="learnbigtitle">Learn</p></blockquote>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+    <!-- header ends here -->
+    <!-- main content begins here -->
+    <div id='main'>
+        <div id="learnbanner1">
+            <img src="images/learnbanner1.png" alt="">
+             <h2>LEARN</h2>
+             <h3>AT SEAGULL CREATIVE FACTORY</h3>
+        </div>
+        
+        
+          <div id="learnmain">
+            <h2>FREE AND DAILY COMMUNITY PROGRAMMING</h2>
+            <p class="learntxt">Every day our classroom and coworking space is jam-packed with meetups, panels, workshops, guest speakers, hack-a-thons and more. The hope is that those within the wider Austin startup community will make their way to Capital Factory throughout the year.</p>
+            <p class="learntxt">If you haven’t already, look over&nbsp;the full schedule. In 2015 we will host close to 1,000&nbsp;events and welcome more than 50,000 attendees to our space. That equates to three or four events every weekday!&nbsp;Each event primarily focus on topics including technology and entrepreneurship that attract programmers, designers and innovators. We love working with diverse groups who help make Capital Factory a more vibrant and inclusive community.</p>
+            <p class="learntxt">Most of the events that we host are free and open to the public. However, some do charge a fee to help cover the costs of refreshments or tuition.</p>
+            <p class="learntxt">Our offices are located in the heart of downtown on the top floor of the Austin Centre adjacent to Omni Hotel. Parking at the Austin Centre is available to all visitors for a special rate of $5 on weeknights after 6pm and on the weekends.&nbsp;There is also ample parking available on the surrounding streets and parking garages. </p>
+        </div>
+    </div>
+    <!-- end main content -->
+
+
+    <!-------footer goes here---->
+    <div id="footer">
+            &copy;Copyright 2015 Seagull Creative Factory 
+          <div id="footer_icons">
+          <a href="https://twiter.com"><img src="images/icon1.jpg" alt=""></a>
+          <a href="https://plus.google.com"><img src="images/icon2.jpg" alt=""></a>
+          <a href="https://linkin.com"><img src="images/icon3.jpg" alt=""></a>
+          <a href="https://facebook.com"><img src="images/icon4.jpg" alt=""></a>
+          </div>
+    </div>
+
+
+</body>

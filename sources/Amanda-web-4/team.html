@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+  <title>Seagull Creative Factory</title>
+  
+  <meta name="description" content="Website on branding and web design.">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+  
+  <!-- stylesheets go here ------>
+    <link rel='stylesheet' type='text/css' href='css/standard_layout.css'>
+    <link rel='stylesheet' type='text/css' href='css/team_layout.css'>    
+  <!-- end stylesheets --------->
+    
+    <!-- jQuery from content delivery network -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!-- end jQuery from content delivery network -->
+    
+    <!-- slider plugin -->
+    <script src="jQuery/responsiveslides.min.js"></script>
+    <!-- end slider plugin -->
+    
+    
+
+      <!-- jQuery script to toggle header logo -->
+    <script src='jQuery/logogrowshrink.js'></script>
+
+</head>
+<!-- head ends here -->
+
+<!-- body begins here ----->
+<body>
+
+   <!-- header goes here -->
+     
+        <div id="mainheader">
+            <div id="mainnav">
+                <ul>
+                    <li><a id='learnlink' href='learn.html'>LEARN</a></li>
+                    <li><a id='worklink' href='work.html'>WORK</a></li>
+                    <li><a id='teamlink' href='team.html'>TEAM</a></li>
+                    <li></li>
+                    <li><a id='joinlink' href='join.html'>JOIN</a></li>
+                    <li><a id='contactlink' href='contact.html'>CONTACT</a></li>
+                    <li><a id='eventslink' href='events.html'>EVENTS</a></li>
+                </ul>
+                 <div class="clear"></div>
+            </div>
+          
+             <!-- main banner class changes from page to page, but ID remains the same -->
+            <div id="mainbanner" class="mainbannerpurple">
+                <!-- main banner image changes from page to page -->
+                <img src='images/header_banner06.png' alt=""></img>
+            
+                <!-- blockquote text changes from page to page -->
+                <blockquote><p>Team</p></blockquote>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+    <!-- header ends here -->
+
+    <!-- main content begins here -->
+    <div id='main'>
+        
+        <div id="teambanner"><h5 id="teambannertitle">Get to Know Our Staff</h5></div>
+        
+        <!--------------slideshow------------------>
+            <div id='sliderholder'>
+                <ul class="rslides">
+                  <li><img src="images/1.jpg" alt=""></li>
+                  <li><img src="images/2.jpg" alt=""></li>
+                  <li><img src="images/3.jpg" alt=""></li>
+                  <li><img src="images/4.jpg" alt=""></li>
+                  <li><img src="images/5.jpg" alt=""></li>
+                </ul>
+            </div>
+        
+            <script>    
+            $(".rslides").responsiveSlides({
+              auto: true,             // Boolean: Animate automatically, true or false
+              speed: 500,            // Integer: Speed of the transition, in milliseconds
+              timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+              pager: false,           // Boolean: Show pager, true or false
+              nav: false,             // Boolean: Show navigation, true or false
+              random: false,          // Boolean: Randomize the order of the slides, true or false
+              pause: false,           // Boolean: Pause on hover, true or false
+              pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+              prevText: "Previous",   // String: Text for the "previous" button
+              nextText: "Next",       // String: Text for the "next" button
+              maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+              navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+              manualControls: "",     // Selector: Declare custom pager navigation
+              namespace: "rslides",   // String: Change the default namespace used
+              before: function(){},   // Function: Before callback
+              after: function(){}     // Function: After callback
+            });
+        </script>
+        <!--------------------------------------------------------------------->
+        
+        
+        
+        <div id='tableholder'>
+            <table id="table1">
+                 <tr>
+                      <td class="td_img_2"><img src="images/malestaff1.jpg" alt=""/></td>
+                    <td class="td_img_2"><img src="images/malestaff2.jpg" alt=""/></td>
+                    <td class="td_img_2"><img src="images/malestaff3.jpg" alt=""/></td>
+                    
+                 </tr>  
+
+                <tr>
+                    <th class="staffname">Mike</th>
+                    <th class="staffname">David</th>
+                    <th class="staffname">Jaccob</th>  
+                 </tr> 
+                 <tr>
+                    <th>Web Developer</th>
+                    <th>Web Developer</th>
+                    <th>Web Developer</th>
+                 </tr>  
+            
+                <tr>
+                    <td class="td_txt_1">User research</br>
+                     Engagement models</br>Measure, track & optimise</td>
+                    <td class="td_txt_1">Web & mobile design</br>Interface design</br>Multi-screen            design</td>
+                    <td class="td_txt_1">Web & mobile solutions</br>Content management</br>eCommerce         </td>   
+
+                </tr>   
+            </table>      
+
+            <table id="table2">       
+                 <tr>
+                     <td class="td_img_1"><img src="images/femalestaff1.jpg" alt=""/></td>
+                    <td class="td_img_1"><img src="images/femalestaff2.jpg" alt=""/></td>
+                    <td class="td_img_1"><img src="images/femalestaff3.jpg" alt=""/></td>
+                   
+                 </tr>  
+
+                  <tr>
+                    <th class="staffname">Tracy</th>
+                    <th class="staffname">Adele</th>
+                    <th class="staffname">Mary</th>  
+                 </tr> 
+                
+                 <tr>
+                    <th>Web Designer</th>
+                    <th>Web Designer</th>
+                    <th>Web Designer</th>
+                 </tr>    
+
+
+                 <tr>
+                    <td class="td_txt_2">Integrated campaigns</br>Mobile, email, video,social</br>and           search marketing </td>
+                    <td class="td_txt_2">Web hosting</br>System administration</br>Security          analysis</td>
+                   <td class="td_txt_2">Web hosting</br>System administration</br>Security   analysis</td>
+
+                 </tr> 
+            </table>
+        </div>
+
+
+
+    </div>
+    <!-- end main content -->
+
+
+    <!-------footer goes here---->
+    <div id="footer">
+            &copy;Copyright 2015 Seagull Creative Factory 
+          <div id="footer_icons">
+          <a href="https://twiter.com"><img src="images/icon1.jpg" alt=""></a>
+          <a href="https://plus.google.com"><img src="images/icon2.jpg" alt=""></a>
+          <a href="https://linkin.com"><img src="images/icon3.jpg" alt=""></a>
+          <a href="https://facebook.com"><img src="images/icon4.jpg" alt=""></a>
+          </div>
+    </div>
+
+</body>
